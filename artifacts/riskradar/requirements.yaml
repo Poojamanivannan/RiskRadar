@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For fluid page transitions, glowing hover effects, and the interactive attack simulation steps"
+  "recharts": "To render the dynamic security score circular chart and vulnerability bar charts on the dashboard"
+  "zxcvbn": "For robust, realistic password strength estimation on the scanner page"
+  "@types/zxcvbn": "TypeScript definitions for zxcvbn"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility for safely merging Tailwind utility classes without conflicts"
+
+images:
+  - path: "artifacts/riskradar/public/images/cyber-bg.png"
+    description: "Dark, abstract futuristic cybersecurity background with glowing neon blue and purple data streams, subtle high-tech grid lines, and floating digital particles, premium dark mode aesthetic"
+    aspect_ratio: "16:9"
+  - path: "artifacts/riskradar/public/images/shield-logo.png"
+    description: "Minimalist futuristic shield emblem glowing with neon blue on a pure black background, sharp geometric edges, cyber tech startup logo"
+    aspect_ratio: "1:1"
+
+notes:
+  - "The application is fully client-side and relies entirely on localStorage for data persistence (no backend API calls)."
+  - "The wouter library is used for routing."
+  - "Lucide React is assumed to be installed for icons."

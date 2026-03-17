@@ -1,0 +1,201 @@
+You are an expert full-stack developer, product designer, and cybersecurity engineer.
+
+Your task is to build a fully functional, production-quality web application prototype called:
+
+RiskRadar
+
+Tagline:
+Know Your Digital Security Score
+
+---
+
+CORE OBJECTIVE
+
+Build a realistic, deployable cybersecurity web application that works fully in the browser (no backend), and looks like a startup-grade product.
+
+---
+
+🎨 VERY IMPORTANT UI DESIGN REQUIREMENTS (STRICT)
+
+The UI must follow this exact style:
+
+• Dark theme (primary background: deep black / zinc)
+• Futuristic cybersecurity style
+• Neon blue and purple gradients
+• Glassmorphism cards (blur + transparency)
+• Glow effects on buttons and highlights
+• Subtle grid / tech background
+
+Color Palette:
+• Background: #0a0a0a / zinc-900
+• Primary Neon Blue: #3b82f6
+• Neon Purple: #8b5cf6
+• Accent Glow: cyan / violet gradients
+
+Design Feel:
+• Looks like a premium cybersecurity startup dashboard
+• Clean, modern, minimal but visually rich
+• Smooth animations and hover effects
+
+Use:
+• Gradient buttons (blue → purple)
+• Glowing borders on active elements
+• Soft shadows + blur cards
+• Animated progress bars
+
+---
+
+TECH STACK
+
+Frontend: React + Vite + TypeScript  
+Styling: Tailwind CSS  
+Charts: Recharts  
+Animations: Framer Motion  
+Icons: Lucide React  
+Security Library: zxcvbn  
+Storage: localStorage  
+
+---
+
+APPLICATION STRUCTURE
+
+src/
+- components/
+- pages/
+- hooks/
+- utils/
+- data/
+- styles/
+
+---
+
+NAVIGATION
+
+Navbar routes:
+
+• Home
+• Scanner
+• Dashboard
+• Breach Checker
+• Attack Simulation
+• Security Tips
+• About
+
+---
+
+PAGES
+
+---
+
+1. HOME PAGE
+
+Hero:
+"See Your Digital Security Risks Before Hackers Do"
+
+Add:
+• Gradient glowing CTA buttons
+• Animated background glow
+
+---
+
+2. SCANNER PAGE
+
+Inputs:
+Website, Email, Password
+
+Show:
+• Password strength meter (animated)
+• Crack time
+• Suggestions
+
+Use glowing progress bars
+
+---
+
+3. DASHBOARD PAGE
+
+Show:
+• Circular Security Score (0–100) with glow effect
+• Charts (Recharts)
+• Risk Heatmap
+
+Cards must use glassmorphism style
+
+---
+
+4. BREACH CHECKER
+
+Show:
+• Safe / Exposed status
+• Timeline
+
+Use warning glow (red/orange)
+
+---
+
+5. ATTACK SIMULATION (IMPORTANT)
+
+Display:
+Step-by-step hacking flow
+
+Use:
+• Flow cards
+• Neon arrows
+• Animated transitions
+
+Make it visually impressive
+
+---
+
+6. SECURITY TIPS
+
+Cards with icons + hover glow
+
+---
+
+7. ABOUT PAGE
+
+Simple clean layout
+
+---
+
+CORE FEATURES
+
+• Password strength analysis (zxcvbn)
+• Password reuse detection
+• Breach detection (mock data)
+• Security Score calculation
+• Attack simulation logic
+• LocalStorage for history
+
+---
+
+VISUAL FEATURES (STRICT)
+
+• Neon glow effects
+• Gradient buttons
+• Smooth animations
+• Hover interactions
+• Responsive design
+
+---
+
+DEPLOYMENT
+
+Ensure:
+npm install
+npm run dev
+npm run build
+
+Works without errors
+
+---
+
+FINAL TASK
+
+Generate COMPLETE working codebase.
+
+Ensure UI strictly follows:
+Dark theme + neon blue/purple + futuristic cybersecurity style.
+
+Do NOT generate plain or basic UI.
